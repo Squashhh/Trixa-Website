@@ -3,31 +3,42 @@
     import '$lib/styles/font.css'
 </script>
 
-<ul>
-    <img src={People} alt="Discord" width="40" height="50">
-    <h1>238 inscrit(s)</h1>
-    <h2>mc.trixa.fr | 19132</h2>
+<ul style="display: flex; align-items: center;">
+    <img src={People} alt="Online" width="30" height="30">
+    <div style="display: flex; flex-direction: column; justify-content: center;">
+        <h1>2 INSCRITS</h1>
+        <h2>play.trixa.fr | 19132</h2>
+    </div>
 </ul>
   
 <style>
   
+    img {
+        margin: 25px;
+    }
+
     h1 {
+        margin: 0;
+        font-size: 20px;
         font-family: "Inter";
         text-align: start;
         color: #ffffff;
     }
 
     h2 {
+        margin: 0;
+        font-size: 19px;
         font-family: "Inter";
         text-align: start;
         color: #8a8a8a;
     }
   
     ul {
+        margin: 25px;
         height: 95px;
         width: 310px;
         background-color: #0B0B0B;
         border-radius: 25px;
-        cursor: pointer;
+        opacity: 90%;
     }  
 </style>

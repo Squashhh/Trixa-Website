@@ -4,8 +4,8 @@
 </script>
 
 <ul style="text-align: center;">
-  <h1>NOS ARTICLES</h1>
-  <h2>Découvrez toute l'actualité :</h2>
+  <h1 style="text-align: center; display: flex; flex-direction: column; align-items: center;">NOS ARTICLES</h1>
+  <h2 style="text-align: center; display: flex; flex-direction: column; align-items: center;">Découvrez toute l'actualité :</h2>
 
   <img src={PatchNote} alt="PatchNote" width="435" height= 220>
   <img src={PatchNote} alt="PatchNote" width="435" height="220">
