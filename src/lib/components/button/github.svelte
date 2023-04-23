@@ -1,5 +1,5 @@
 <script>
-    import Github from '/Github.png';
+    import Github from '/GitHub.png';
     import '$lib/styles/font.css'
 </script>
 
