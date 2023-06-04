@@ -32,7 +32,7 @@
   }
 
   nav {
-    background: #181818;
+    background: #252525;
     height: 100px;
   }
 </style>
