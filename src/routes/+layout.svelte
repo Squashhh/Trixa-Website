@@ -1,24 +1,26 @@
 <script>
-    import NavBar from '$lib/components/navbar/navbar.svelte';
-    import Banner from '$lib/components/navbar/banner.svelte';
-    import Article from '$lib/components/article.svelte';
-    import Creators from '$lib/components/creators.svelte';
-    import Footers from '$lib/components/footers.svelte';
+    import NavBar from '$lib/components/navbar.svelte';
+    import Banner from '$lib/components/banner.svelte';
+    import Faq from '$lib/components/faq.svelte';
+    import Trust from '$lib/components/trust.svelte';
+    import Footer from '$lib/components/footer.svelte';
 </script>
 
 <NavBar/>
 <div class="bar"></div>
 <Banner/>
 <div class="bar"></div>
-<Article/>
-<div class="bar"></div>
-<Creators/>
-<div class="bar"></div>
-<Footers/>
+<Faq/>
+<div class="bar"></div>    
+<Trust/>
+<div class="bar"></div>    
+<Footer/>
 
 <style>
     .bar {
         height: 3px;
-        background-color: #D9D9D9;
+        padding: 0px;
+        margin: 0px;
+        background-color: #2b2b2b;
     }
 </style>
